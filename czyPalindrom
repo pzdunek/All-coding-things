@@ -1,7 +1,9 @@
 function czyPalindrom(wyraz) {
-	if (wyraz == wyraz.split("").reverse().join("")){
-	    console.log (wyraz + " jest palindromem")
-	}else {console.log (wyraz + " nie jest palindromem")}
-	 
+  if (wyraz == wyraz.split("").reverse().join("")) {
+    console.log(wyraz + " jest palindromem")
+  } else {
+    console.log(wyraz + " nie jest palindromem")
+  }
+
 }
-console.log(czyPalindrom("kajak")); 
+console.log(czyPalindrom("kajak"));
