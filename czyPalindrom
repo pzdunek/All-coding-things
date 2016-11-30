@@ -1,3 +1,5 @@
+// Javascript. Funkcja sprawdzająca, czy dany wyraz jest palindromem.
+
 function czyPalindrom(wyraz) {
   if (wyraz == wyraz.split("").reverse().join("")) {
     console.log(wyraz + " jest palindromem")
